@@ -1,5 +1,6 @@
 
 
+
 *{
     padding: 0px;
     margin: 0px;
@@ -18,8 +19,7 @@
     padding: 10px 0;
 }
 .chicken{
-  max-width: 32.3%;
-   margin: 10px 5px;
+    border: 1px solid #000;
    color: #000;
 }
 .sub-heading{
@@ -32,63 +32,17 @@
     font-weight: 600;
 }
 ul{
-    visibility: hidden;
     text-align: center;
 }
-
-
-@media(max-width: 992px)
-{
-    .chicken{
-        max-width: 48%;
-    }
-    .chicken:nth-child(3){
-        max-width: 97%;
-    }
-    ul{
-        visibility: visible;
-    }
-    ul li{
-        border: 2px solid #000;
-    }
-    ul li:nth-child(2),
-    ul li:nth-child(3){
-        border-top: none;
-    }
-    ul li a{
-        color: #000;
-    }
+ul li{
+    border: 2px solid #000;
 }
-@media(max-width: 767px)
-{
-    .chicken{
-        max-width: 97%;
-    }
+ul li:nth-child(2),
+ul li:nth-child(3){
+    border-top: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ul li a{
+    color: #000;
+}
 
 
